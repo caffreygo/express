@@ -1,0 +1,37 @@
+<view class="item-wrap">
+  <view class="item">
+    <text><text style="color:red"> * </text>寄件人信息：</text>
+    <input bindinput="publisherText" placeholder="寄件人姓名+电话"></input>
+  </view>
+  <view class="item">
+    <text><text style="color:red"> * </text>收件人信息：</text>
+    <input bindinput="embracerText" placeholder="收件人姓名+电话"></input>
+  </view>
+  <view class="item">
+    <text><text style="color:red"> * </text>取件地址：</text>
+    <input bindinput="fromText" placeholder="请输入具体寄货地址"></input>
+  </view>
+  <view class="item">
+    <text><text style="color:red"> * </text>收货地址：</text>
+    <input bindinput="toText" placeholder="请输入具体收货地址"></input>
+  </view>
+  <view class="item">
+    <text><text style="color:red"> * </text>薪酬：</text>
+    <input bindinput="rewardText"  placeholder="请输入薪酬"></input>
+  </view>
+  <view class="item">
+    <text>留言：</text>
+    <text class="inputText">{{current}} / {{max}}</text>
+    <textarea placeholder-style="color:b2b2b2; font-size:22rpx" 
+              placeholder="快递信息（若有特殊要求，如快递为易碎物品，瓜果等急需送达的请备或是要求指定快递寄送的请备注留言）"
+              maxlength="200"
+              bindinput='areaText'
+              style="font-size:32rpx;"
+              ></textarea>
+  </view>
+  <view class="submit-item">
+    <view catchtap="onSubmitTap" class="submit-container">
+      <text class="submit-text">发布寄件任务</text>
+    </view>
+  </view>
+</view>

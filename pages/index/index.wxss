@@ -1,0 +1,77 @@
+swiper {
+  height: 500rpx;
+  width: 100%;
+}
+
+swiper image {
+  height: 500rpx;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userInfo{
+  font-size: 24rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 99;
+}
+
+.message {
+  height: 80rpx;
+  background-color: #E8E8E8;
+  text-align: center;
+  line-height: 80rpx;
+  width: 100%;
+  color: #405f80;
+  border: 1px solid #96CDCD;
+}
+.icon{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+.margin-left{
+  margin-left: 20rpx;
+}
+.margin-right{
+  margin-right: 20rpx;
+}
+.item-wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.item{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  border: 1px solid black;
+  border-radius: 10rpx;
+  background-color: #ededed;
+}
+.item-margin{
+  margin-right: 120rpx;
+}
+.icon-self{
+  width: 128rpx;
+  height: 128rpx;
+}
+.infoIcon{
+  position: absolute;
+  bottom: 40rpx;
+  right: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoText{
+  display: block;
+  font-size: 22rpx;
+  color: #96CDCD
+}

@@ -1,0 +1,20 @@
+<text bindtap='onSignUp' class="sign-up">注册</text>
+<view class="item-wrap">
+  <view class="main-item">
+    <view class="text-wrap">
+      <text class="account-num">华侨大学快递通</text>
+      <text class="account-text">您身边的校园快递</text>
+    </view>
+    <view class="input-wrap">
+      <text>账号 :</text>
+      <input class="input" placeholder='请输入账号' maxlength='20' bindinput='accountInput'></input>
+    </view>
+    <view class="input-wrap">
+      <text>密码 :</text>
+      <input class="input" placeholder='请输入密码' maxlength='20' bindinput='passwordInput'></input>
+    </view>
+    <view class="yellow-button" bindtap='submit'>
+      <text class="button-text">登录</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+<view class="item-wrap">
+  <view class="main-item">
+    <view class="text-wrap">
+      <text class="title">薪酬 :</text>
+      <text class="message">{{item.reward}}</text>
+    </view>
+    
+    <view class="text-wrap">
+      <text class="title">发布者 :</text>
+      <text class="message">{{item.user}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">寄件人 :</text>
+      <text class="message">{{item.publisher}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">收件人 :</text>
+      <text class="message">{{item.embracer}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">取件地址 :</text>
+      <text class="message">{{item.fromAddr}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">收货地址 :</text>
+      <text class="message">{{item.toAddr}}</text>
+    </view>
+    <view class="text-wrap">
+      <text class="title">任务备注 :</text>
+      <text class="message">{{item.content}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="yellow-button" bindtap='submit'>
+  <text class="button-text">点击结束此单</text>
+</view>

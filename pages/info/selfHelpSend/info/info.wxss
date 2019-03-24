@@ -1,0 +1,47 @@
+.item-wrap {
+  margin-top: 80rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.main-item{
+  width:686rpx;
+  margin: 10rpx auto;
+  box-shadow: 0 0 30rpx black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-wrap{
+  width:586rpx;
+  padding-top: 40rpx; 
+  padding-bottom: 20rpx;
+}
+
+.title{
+  margin-left: 40rpx;
+  font-weight: 700;
+  font-size: 32rpx;
+}
+
+.message{
+  font-size: 26rpx;
+  margin-left: 30rpx;
+}
+
+.yellow-button{
+  margin: 10rpx auto;
+  margin-top: 40rpx;
+  width: 526rpx;
+  height:88rpx;
+  background-color: #FFEC3D;
+  text-align: center;
+}
+
+.button-text{
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 88rpx;
+}

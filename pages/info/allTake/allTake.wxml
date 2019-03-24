@@ -1,0 +1,26 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">状态</view>
+    <view class="th">发布日期</view>
+    <view class="th">接单人</view>
+    <view class="th">详情</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.status}}</view>
+      <view class="td">{{item.date}}</view>
+      <view class="td">{{item.taker}}</view>
+      <view class="td">
+        <image data-id="{{item.id}}" bindtap="onInfoTap" class="rightImg" src="/utils/icons/operate.png" />
+      </view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.status}}</view>
+      <view class="td">{{item.date}}</view>
+      <view class="td">{{item.taker}}</view>
+      <view class="td">
+        <image data-id="{{item.id}}" bindtap="onInfoTap" class="rightImg" src="/utils/icons/operate.png" />
+      </view>
+    </view>
+  </block>
+</view>

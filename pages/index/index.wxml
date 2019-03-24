@@ -1,0 +1,56 @@
+<view class="main">
+  <text class="userInfo">当前登录用户：{{username}}</text>
+
+  <swiper indicator-dots="true"
+          indicator-active-color="#9AFF9A" 
+          autoplay="true" 
+          vertical="{{false}}">
+    <swiper-item>
+      <image src="/utils/images/img1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/utils/images/img2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/utils/images/img3.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+ <view class="message">
+    <text>发布任务</text>
+    <image class="icon margin-left" src="/utils/icons/courier.png"></image>
+  </view>
+
+  <view class="item-wrap">
+    <view class="item item-margin" bindtap='onSendPage'>
+      <image src="/utils/icons/express1.png" class="icon margin-right"></image>
+      <text>我要寄件</text>
+    </view>
+    <view class="item" bindtap='onTakePage'>
+      <image src="/utils/icons/send.png" class="icon margin-right"></image>
+      <text>我要取件</text>
+    </view>
+  </view>
+
+   <view class="message">
+    <text>任务大厅</text>
+    <image class="icon margin-left" src="/utils/icons/express.png"></image>
+  </view>
+
+  <view class="item-wrap">
+    <view class="item item-margin" bindtap='onHelpSend'>
+      <image src="/utils/icons/helpSend.png" class="icon margin-right"></image>
+      <text>我要帮寄</text>
+    </view>
+    <view class="item" bindtap='onHelpTake'>
+      <image src="/utils/icons/helpSave.png" class="icon margin-right"></image>
+      <text>我要帮取</text>
+    </view>
+  </view>
+
+  <view class="infoIcon" bindtap='onInfoTap'>
+    <image src="/utils/icons/info.png" class="icon-self"></image>
+    <text class="infoText">个人中心</text>
+  </view>
+
+</view>

@@ -1,0 +1,38 @@
+<view class="container">
+  <view catchtap="onSendTap" class="item">
+    <text class="item-text">个人寄件记录</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+  <view catchtap="onTakeTap" class="item">
+    <text class="item-text">个人取件记录</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+</view>
+
+<view class="container">
+  <view catchtap="onAllSend" class="item">
+    <text class="item-text">全部寄件记录</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+  <view catchtap="onAllTake" class="item">
+    <text class="item-text">全部取件记录</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+</view>
+
+<view class="container">
+  <view catchtap="onHelpSend" class="item">
+    <text class="item-text">个人代寄记录+结单</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+  <view catchtap="onHelpTake" class="item">
+    <text class="item-text">个人代取记录+结单</text>
+    <image class="item-image" src="/utils/icons/right.png"></image>
+  </view>
+</view>
+
+<view class="container">
+  <view class="item" bindtap='onLoginOut'>
+    <text class="login-out-text">退出当前用户</text>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index", 
+    "pages/signup/signup",
+    
+    "pages/send/send",
+    "pages/take/take",
+
+    "pages/helpSend/helpSend",
+    "pages/helpSend/sendAction/sendActon",
+
+    "pages/helpTake/helpTake",
+    "pages/helpTake/takeAction/takeAction",
+    
+    "pages/info/info",
+    
+    "pages/info/selfSend/selfSend",
+    "pages/info/selfSend/info/info",
+
+    "pages/info/selfTake/selfTake",
+    "pages/info/selfTake/info/info",
+
+    "pages/info/selfHelpTake/selfHelpTake",
+    "pages/info/selfHelpTake/info/info",
+
+    "pages/info/selfHelpSend/selfHelpSend",
+    "pages/info/selfHelpSend/info/info",
+
+    "pages/info/allSend/allSend",
+    "pages/info/allSend/info/info",
+
+    "pages/info/allTake/allTake",
+    "pages/info/allTake/info/info"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  }
+}
