@@ -12,7 +12,9 @@ Page({
       url: '/pages/helpTake/takeAction/takeAction?id=' + id,
     })
   },
-
+  changeData: function () {
+    this.onLoad();
+  },
   onLoad: function (options) {
     var that = this
     wx.request({
