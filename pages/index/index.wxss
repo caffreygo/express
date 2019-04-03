@@ -63,7 +63,7 @@ swiper image {
   height: 128rpx;
 }
 .infoIcon{
-  position: absolute;
+  position: fixed;
   bottom: 40rpx;
   right: 20rpx;
   display: flex;
